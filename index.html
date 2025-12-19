@@ -31,18 +31,7 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <svg class="hero-bg" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-            <defs>
-                <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:#9ca5bf;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#6b7a99;stop-opacity:1" />
-                </linearGradient>
-            </defs>
-            <rect width="1200" height="800" fill="url(#heroGrad)"/>
-            <circle cx="200" cy="100" r="80" fill="#d4af37" opacity="0.3"/>
-            <circle cx="1000" cy="700" r="120" fill="#d4af37" opacity="0.2"/>
-            <path d="M 0 400 Q 300 300 600 400 T 1200 400 L 1200 800 L 0 800 Z" fill="#a8b5d1" opacity="0.4"/>
-        </svg>
+        <div class="hero-bg" style="background: linear-gradient(135deg, #9ca5bf 0%, #6b7a99 100%); height: 800px; display:flex; flex-direction: column; justify-content:center; align-items:center; text-align:center; color:white;">
             <h1>Benvenuti a Hotel Luxe</h1>
             <p>Scopri l'eleganza e il comfort in un'atmosfera sofisticata</p>
             <button class="cta-btn">Prenota Ora</button>
@@ -77,13 +66,7 @@
             <h2>Le Nostre Camere</h2>
             <div class="rooms-grid">
                 <div class="room-card">
-                    <svg class="room-image" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="500" height="350" fill="#8b9dc3"/>
-                        <rect x="50" y="80" width="150" height="100" fill="#d4af37" rx="5"/>
-                        <rect x="300" y="80" width="150" height="100" fill="#d4af37" rx="5"/>
-                        <rect x="50" y="210" width="400" height="80" fill="#6b7a99" rx="5"/>
-                        <text x="250" y="320" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">Camera Standard</text>
-                    </svg>
+                    <img class="room-image" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80" alt="Camera Standard">
                     <div class="room-info">
                         <h3>Camera Standard</h3>
                         <p>Comfort e semplicità elegante</p>
@@ -97,14 +80,7 @@
                 </div>
 
                 <div class="room-card">
-                    <svg class="room-image" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="500" height="350" fill="#a8b5d1"/>
-                        <rect x="40" y="60" width="180" height="120" fill="#d4af37" rx="5"/>
-                        <rect x="280" y="60" width="180" height="120" fill="#d4af37" rx="5"/>
-                        <circle cx="130" cy="220" r="40" fill="#6b7a99"/>
-                        <circle cx="370" cy="220" r="40" fill="#6b7a99"/>
-                        <text x="250" y="320" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">Camera Deluxe</text>
-                    </svg>
+                    <img class="room-image" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=500&q=80" alt="Camera Deluxe">
                     <div class="room-info">
                         <h3>Camera Deluxe</h3>
                         <p>Lusso e spaziosità</p>
@@ -118,13 +94,7 @@
                 </div>
 
                 <div class="room-card">
-                    <svg class="room-image" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="500" height="350" fill="#9ca5bf"/>
-                        <rect x="30" y="40" width="200" height="140" fill="#d4af37" rx="5"/>
-                        <rect x="270" y="40" width="200" height="140" fill="#d4af37" rx="5"/>
-                        <rect x="50" y="200" width="400" height="100" fill="#6b7a99" rx="5"/>
-                        <text x="250" y="320" font-size="24" fill="#fff" text-anchor="middle" font-weight="bold">Suite Presidenziale</text>
-                    </svg>
+                    <img class="room-image" src="https://images.unsplash.com/photo-1560347876-aeef00ee58a1?auto=format&fit=crop&w=500&q=80" alt="Suite Presidenziale">
                     <div class="room-info">
                         <h3>Suite Presidenziale</h3>
                         <p>L'apice del lusso</p>
@@ -184,36 +154,12 @@
         <div class="container">
             <h2>Galleria Fotografica</h2>
             <div class="gallery-grid">
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#9ca5bf"/>
-                    <rect x="80" y="80" width="340" height="240" fill="#d4af37" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Lobby</text>
-                </svg>
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#8b9dc3"/>
-                    <rect x="60" y="60" width="380" height="280" fill="#4da6ff" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Piscina</text>
-                </svg>
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#a8b5d1"/>
-                    <rect x="70" y="70" width="360" height="260" fill="#ffb366" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Ristorante</text>
-                </svg>
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#9ca5bf"/>
-                    <rect x="80" y="80" width="340" height="240" fill="#d4af37" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Camera Panoramica</text>
-                </svg>
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#8b9dc3"/>
-                    <rect x="60" y="60" width="380" height="280" fill="#e6b3ff" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Spa</text>
-                </svg>
-                <svg class="gallery-item" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="500" height="400" fill="#a8b5d1"/>
-                    <rect x="70" y="70" width="360" height="260" fill="#99ff99" rx="10"/>
-                    <text x="250" y="350" font-size="20" fill="#1a1a2e" text-anchor="middle" font-weight="bold">Bar Lounge</text>
-                </svg>
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1582719478171-7f15c1d0c556?auto=format&fit=crop&w=500&q=80" alt="Lobby">
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1576675789132-2a7c242f5d7a?auto=format&fit=crop&w=500&q=80" alt="Piscina">
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1560347876-aeef00ee58a1?auto=format&fit=crop&w=500&q=80" alt="Ristorante">
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80" alt="Camera Panoramica">
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1576675789132-2a7c242f5d7a?auto=format&fit=crop&w=500&q=80" alt="Spa">
+                <img class="gallery-item" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=500&q=80" alt="Bar Lounge">
             </div>
         </div>
     </section>
